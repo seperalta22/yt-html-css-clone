@@ -61,9 +61,10 @@ header {
     width: 25px;
 }
 
-button {
-    background-color: #0f0f0f;
-    opacity: 8%;
-    border: none;
-    cursor: pointer;
+
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 2rem;
 }
